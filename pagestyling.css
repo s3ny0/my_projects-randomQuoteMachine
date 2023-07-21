@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(180deg, rgb(187, 49, 49), rgb(80, 11, 11));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#quote-box{
+    height: 500px;
+    width: 80%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    width: 95%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(80, 11, 11);
+    text-align: center;
+}
+
+#author{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#bottom-section{
+    background-color: black;
+    width: 95%;
+    height: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#tweet-quote{
+    height: 60px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(80, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-quote{
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+
+}
